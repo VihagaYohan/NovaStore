@@ -52,4 +52,8 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
+
+    // icons
+    implementation("com.composables:icons-lucide-android:2.2.1")
+    implementation("androidx.compose.material:material-icons-extended")
 }
