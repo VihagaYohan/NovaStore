@@ -56,4 +56,9 @@ dependencies {
     // icons
     implementation("com.composables:icons-lucide-android:2.2.1")
     implementation("androidx.compose.material:material-icons-extended")
+
+    // view model
+    implementation(libs.androidx.lifecycle.viewmodel.compose) // viewModel()
+    implementation(libs.androidx.lifecycle.runtime.compose)   // collectAsStateWithLifecycle()
+
 }
