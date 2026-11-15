@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">novastore</string>
+    <string name="nova">Nova</string>
+    <string name="store">Store</string>
 </resources>
